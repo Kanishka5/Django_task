@@ -1,0 +1,6 @@
+<h1>CCA members </h1>
+
+  {% for member in object_list %}
+  <img src="{{member.pics.url}}"/>
+  {{member.name}}
+  {% endfor %}
